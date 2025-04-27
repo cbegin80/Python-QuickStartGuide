@@ -1,6 +1,17 @@
-print("Hello,\nWorld!\n\nHello, World!")
+customers = {
+    "James Smith",
+    "Andrea Richards",
+    "Sam Sharp",
+    "Brenda Longmire",
+    "Veronica March",
+    "Sylvia Smith",
+    "James Smith",
+    "Vanessa Bush",
+    "Steve Hammersmith",
+    "Brenda Longmire",
+    "Sylvia Smith",
+    "Steve Hammersmith",
+    "Walt Hawkins"
+}
 
-# Exercise: ask the user for their name and print the first letter
-
-name = input("What is your first name? ")
-print("Your first initial is " + name[0])
+print(customers)
