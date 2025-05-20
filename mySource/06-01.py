@@ -10,3 +10,4 @@ class World:
 
 # Use the class World to create a world object named w
 w = World()
+print(w.greeting)
