@@ -1,17 +1,11 @@
-customers = {
-    "James Smith",
-    "Andrea Richards",
-    "Sam Sharp",
-    "Brenda Longmire",
-    "Veronica March",
-    "Sylvia Smith",
-    "James Smith",
-    "Vanessa Bush",
-    "Steve Hammersmith",
-    "Brenda Longmire",
-    "Sylvia Smith",
-    "Steve Hammersmith",
-    "Walt Hawkins"
-}
+from dataclasses import dataclass
 
-print(customers)
+@dataclass
+class Customer:
+    name: str
+    city: str = "Florence"
+    bonus_points: int = 100
+    total_spent: float = 0.00
+
+c1 = Customer("Robert")
+print(repr(c1))
